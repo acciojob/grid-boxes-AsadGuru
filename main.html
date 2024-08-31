@@ -3,12 +3,12 @@
 <head>
     <title>Grid Layout</title>
     <style>
-        .container {
-            display: grid;
-            grid-template-columns: repeat(4, 242.5px);
-            grid-template-rows: repeat(5, 124px);
-            grid-gap: 10px;
-        }
+        #grid {
+    display: grid;
+    grid-template-columns: repeat(4, 242.5px);
+    grid-template-rows: repeat(5, 124px);
+    grid-gap: 10px;
+}
 
         .item {
             background-color: lightblue;
@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div id="grid">
         <div class="item item1">1</div>
         <div class="item item2">2</div>
         <div class="item">3</div>
